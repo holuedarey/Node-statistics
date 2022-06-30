@@ -9,7 +9,7 @@ This Project is Mainly a CRUD Application for Nodes Operation (Create, Retrieve,
 
 ## Installation
 
-Code Repository https://github.com/holuedarey/Node-statistics.git
+Code Repository https://github.com/holuedarey/Node-statistics.gitgit 
 After cloning app from the repository
 - run composer install
 - then run ./vendor/bin/sail up to start up the project this will spin up the docker container for the mysql and configure your database as seen in the docker-composer.yml file to connect to the database on port 8001
@@ -18,6 +18,8 @@ After cloning app from the repository
 ## Node Statistics Implementation
 A Repository pattern was use an Interface was created to abstract the implementation on INodeRepository, and it was implemented on NodeRepository which was used in the NodeController and a request Vvalidator Class was created under Request Folder with name NodeRequest
 
+## Api Documentation
+- https://www.getpostman.com/collections/112d7412095be9aaf5c5
 
 ## Routes
 All Api Route can be found in api.php in routes folder
