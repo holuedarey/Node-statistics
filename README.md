@@ -8,6 +8,8 @@ Node Statistics
 This Project is Mainly a CRUD Application for Nodes Operation (Create, Retrieve, Update, Delete ) and Make use of JWt as the Authentication Mechanism
 
 ## Installation
+
+Code Repository https://github.com/holuedarey/Node-statistics.git
 After cloning app from the repository
 - run composer install
 - then run ./vendor/bin/sail up to start up the project this will spin up the docker container for the mysql and configure your database as seen in the docker-composer.yml file to connect to the database on port 8001
