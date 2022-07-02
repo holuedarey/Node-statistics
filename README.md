@@ -19,8 +19,7 @@ After cloning app from the repository
 A Repository pattern was use an Interface was created to abstract the implementation on INodeRepository, and it was implemented on NodeRepository which was used in the NodeController and a request Vvalidator Class was created under Request Folder with name NodeRequest
 
 ## Api Documentation
-- https://www.getpostman.com/collections/112d7412095be9aaf5c5
-
+- https://documenter.getpostman.com/view/387620/UzJEULEr
 ## Routes
 All Api Route can be found in api.php in routes folder
 
